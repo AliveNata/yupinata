@@ -15,7 +15,7 @@ import Footer from './components/Footer'
 import Gallery from './pages/Gallery'
 import YupiCoklat from './pages/YupiCoklat'
 import NataGoricx from './pages/NataGoricx'
-import AdminApp from './admin/AdminApp'
+import AdminApp from './AdminApp'
 
 const pageTransition = {
   duration: 0.8,
