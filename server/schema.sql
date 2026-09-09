@@ -1,4 +1,12 @@
--- yupinata - read-only content DB (migrated from Supabase)
+-- yupinata - content DB (migrated from Supabase) + admin CMS
+
+CREATE TABLE IF NOT EXISTS admins (
+  id            SERIAL PRIMARY KEY,
+  username      TEXT UNIQUE NOT NULL,
+  password_hash TEXT NOT NULL,
+  token_version INT  NOT NULL DEFAULT 0,
+  created_at    TIMESTAMPTZ NOT NULL DEFAULT now()
+);
 
 CREATE TABLE IF NOT EXISTS sections (
   id            UUID PRIMARY KEY,

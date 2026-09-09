@@ -1,29 +1,30 @@
 import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
-import { query } from './db.js'
+import { authRouter } from './auth.js'
+import { crudRouter, RESOURCES } from './crud.js'
+import { uploadRouter, UPLOAD_DIR } from './upload.js'
 
 const app = express()
 app.set('trust proxy', 1)
-
-// Same-origin in production (nginx proxies /api). CORS open for read-only content.
 app.use(cors())
+app.use(express.json({ limit: '1mb' }))
+
+// Admin-uploaded media (nginx also serves this path in production).
+app.use('/uploads', express.static(UPLOAD_DIR, { maxAge: '30d' }))
 
 app.get('/health', (_req, res) => res.json({ ok: true }))
-
-// Read-only content endpoints. The frontend shim fetches whole tables and
-// filters client-side (tables are tiny), so these just return everything.
-const TABLES = ['sections', 'images', 'songs']
-for (const t of TABLES) {
-  app.get(`/api/${t}`, async (_req, res, next) => {
-    try {
-      const { rows } = await query(`SELECT * FROM ${t} ORDER BY display_order ASC, id ASC`)
-      res.json(rows)
-    } catch (e) { next(e) }
-  })
+app.use('/api/auth', authRouter)
+for (const [table, cfg] of Object.entries(RESOURCES)) {
+  app.use(`/api/${table}`, crudRouter(table, cfg))
 }
+app.use('/api/upload', uploadRouter)
 
-app.use((err, _req, res, _next) => { console.error('[yupinata-api]', err.message); res.status(500).json({ error: 'Server error' }) })
+app.use((err, _req, res, _next) => {
+  console.error('[yupinata-api]', err.message)
+  const client = /not allowed|no file|file type/i.test(err.message || '')
+  res.status(client ? 400 : 500).json({ error: client ? err.message : 'Server error' })
+})
 
 const port = process.env.PORT || 4100
 app.listen(port, () => console.log(`yupinata API on :${port}`))

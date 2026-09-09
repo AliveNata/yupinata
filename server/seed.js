@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import fs from 'node:fs'
 import path from 'node:path'
+import bcrypt from 'bcryptjs'
 import { fileURLToPath } from 'node:url'
 import { pool, query } from './db.js'
 
@@ -29,7 +30,21 @@ async function seedTable(table, rows) {
   console.log(`  seeded ${table}: ${rows.length} rows`)
 }
 
+async function seedAdmin() {
+  const username = (process.env.ADMIN_USER || '').toLowerCase().trim()
+  const password = process.env.ADMIN_PASSWORD || ''
+  if (!username || !password) return console.warn('! ADMIN_USER / ADMIN_PASSWORD not set - skipping admin')
+  const hash = await bcrypt.hash(password, 10)
+  await query(
+    `INSERT INTO admins (username, password_hash) VALUES ($1, $2)
+     ON CONFLICT (username) DO UPDATE SET password_hash = EXCLUDED.password_hash`,
+    [username, hash],
+  )
+  console.log(`  admin ready: ${username}`)
+}
+
 async function run() {
+  await seedAdmin()
   for (const table of ['sections', 'images', 'songs']) await seedTable(table, data[table] || [])
   console.log('Seed complete.')
   await pool.end()

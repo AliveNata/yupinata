@@ -15,6 +15,7 @@ import Footer from './components/Footer'
 import Gallery from './pages/Gallery'
 import YupiCoklat from './pages/YupiCoklat'
 import NataGoricx from './pages/NataGoricx'
+import AdminApp from './admin/AdminApp'
 
 const pageTransition = {
   duration: 0.8,
@@ -54,6 +55,9 @@ function HomePage() {
 function App() {
   const location = useLocation()
   const [loaded, setLoaded] = useState(false)
+
+  // Admin is a standalone app: no preloader, no page transitions.
+  if (location.pathname.startsWith('/admin')) return <AdminApp />
 
   return (
     <>
