@@ -15,6 +15,14 @@
   --font-body: 'Inter', sans-serif;
 }
 
+/* Admin CMS: frosted-glass card on a soft pink/sky ground (matches the old yupinata admin) */
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
 * {
   margin: 0;
   padding: 0;
