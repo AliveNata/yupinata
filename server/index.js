@@ -4,6 +4,7 @@ import cors from 'cors'
 import { authRouter } from './auth.js'
 import { crudRouter, RESOURCES } from './crud.js'
 import { uploadRouter, UPLOAD_DIR } from './upload.js'
+import { settingsRouter } from './settings.js'
 
 const app = express()
 app.set('trust proxy', 1)
@@ -19,6 +20,7 @@ for (const [table, cfg] of Object.entries(RESOURCES)) {
   app.use(`/api/${table}`, crudRouter(table, cfg))
 }
 app.use('/api/upload', uploadRouter)
+app.use('/api/settings', settingsRouter)
 
 app.use((err, _req, res, _next) => {
   console.error('[yupinata-api]', err.message)

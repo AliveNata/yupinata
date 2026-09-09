@@ -41,6 +41,7 @@ class Query {
 
   select(_cols?: string) { if (this.op !== 'insert' && this.op !== 'update') this.op = 'select'; return this }
   insert(payload: any) { this.op = 'insert'; this.payload = payload; return this }
+  upsert(payload: any) { this.op = 'insert'; this.payload = payload; return this } // server upserts by key
   update(payload: any) { this.op = 'update'; this.payload = payload; return this }
   delete() { this.op = 'delete'; return this }
 
@@ -158,6 +159,12 @@ const auth = {
   async getUser() {
     try { const me = await parse(await fetch(`${API_BASE}/api/auth/me`, { headers: authHeaders() })); return { data: { user: { email: me.username } }, error: null } }
     catch (error: any) { return { data: { user: null }, error: { message: error.message } } }
+  },
+  async updateUser(attrs: { email?: string; password?: string }): Promise<{ data: any; error: { message: string } | null }> {
+    try {
+      const data = await parse(await fetch(`${API_BASE}/api/auth/update`, { method: 'POST', headers: authHeaders(), body: JSON.stringify(attrs) }))
+      return { data: { user: data.user }, error: null }
+    } catch (error: any) { return { data: { user: null }, error: { message: error.message } } }
   },
   async resetPasswordForEmail(_email: string, _opts?: any): Promise<{ data: any; error: { message: string } | null }> { return { data: {}, error: null } },
 }

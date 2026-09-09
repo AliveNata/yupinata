@@ -32,3 +32,21 @@ authRouter.post('/login', async (req, res) => {
 })
 
 authRouter.get('/me', requireAuth, (req, res) => res.json({ username: req.user.username }))
+
+// Update the signed-in admin's email (username) and/or password.
+authRouter.post('/update', requireAuth, async (req, res) => {
+  const { email, password } = req.body || {}
+  const sets = []
+  const vals = []
+  if (email) { sets.push(`username = $${sets.length + 1}`); vals.push(String(email).toLowerCase().trim()) }
+  if (password) { sets.push(`password_hash = $${sets.length + 1}`); vals.push(await bcrypt.hash(String(password), 10)) }
+  if (!sets.length) return res.status(400).json({ error: 'Nothing to update' })
+  vals.push(req.user.sub)
+  try {
+    const { rows } = await query(`UPDATE admins SET ${sets.join(', ')} WHERE id = $${vals.length} RETURNING username`, vals)
+    res.json({ user: { email: rows[0].username } })
+  } catch (e) {
+    if (String(e.message).includes('duplicate')) return res.status(400).json({ error: 'Email already in use' })
+    throw e
+  }
+})

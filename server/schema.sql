@@ -41,3 +41,10 @@ CREATE TABLE IF NOT EXISTS songs (
   created_at    TIMESTAMPTZ,
   updated_at    TIMESTAMPTZ
 );
+
+-- Key/value site settings (site_title, favicon_url, ...)
+CREATE TABLE IF NOT EXISTS settings (
+  key        TEXT PRIMARY KEY,
+  value      TEXT,
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);

@@ -6,7 +6,8 @@ const links = [
   { path: '/admin/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { path: '/admin/content', label: 'Content', icon: FileText },
   { path: '/admin/images', label: 'Images', icon: Image },
-  { path: '/admin/music', label: 'Music', icon: Music }
+  { path: '/admin/music', label: 'Music', icon: Music },
+  { path: '/admin/settings', label: 'Settings', icon: Settings }
 ];
 
 export function AdminSidebar() {

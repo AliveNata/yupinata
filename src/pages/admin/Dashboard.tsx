@@ -24,6 +24,13 @@ const dashboardCards = [
     icon: Music,
     path: '/admin/music',
     gradient: 'from-sky to-sky-dark'
+  },
+  {
+    title: 'Settings',
+    description: 'Manage website settings',
+    icon: Settings,
+    path: '/admin/settings',
+    gradient: 'from-ice-dark to-blue-ice'
   }
 ];
 

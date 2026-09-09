@@ -8,6 +8,7 @@ import { Dashboard } from './pages/admin/Dashboard'
 import { Content } from './pages/admin/Content'
 import { Images } from './pages/admin/Images'
 import { Music } from './pages/admin/Music'
+import { Settings } from './pages/admin/Settings'
 
 export default function AdminApp() {
   // Remove the HTML splash screen (the Preloader, which admin skips, normally does this).
@@ -25,6 +26,7 @@ export default function AdminApp() {
         <Route path="/admin/content" element={<ProtectedRoute><Content /></ProtectedRoute>} />
         <Route path="/admin/images" element={<ProtectedRoute><Images /></ProtectedRoute>} />
         <Route path="/admin/music" element={<ProtectedRoute><Music /></ProtectedRoute>} />
+        <Route path="/admin/settings" element={<ProtectedRoute><Settings /></ProtectedRoute>} />
         <Route path="*" element={<Navigate to="/admin/dashboard" replace />} />
       </Routes>
       <Toaster position="top-right" toastOptions={{ duration: 3000 }} />
