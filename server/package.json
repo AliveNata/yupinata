@@ -1,0 +1,18 @@
+{
+  "name": "yupinata-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only content API (Express + PostgreSQL) for yupinata.alyxlabs.tech",
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "node migrate.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}

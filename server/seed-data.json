@@ -1,0 +1,827 @@
+{
+  "sections": [
+    {
+      "id": "cd2c51f5-e470-460c-92e7-9c5a06fc37a0",
+      "name": "hero",
+      "title": "YUPI & NATA",
+      "content": "THE PARTNER OF CRIME",
+      "created_at": "2024-12-29T13:32:18.984487+00:00",
+      "updated_at": "2024-12-30T03:23:50.561275+00:00",
+      "display_order": 0,
+      "profiles": null
+    },
+    {
+      "id": "fe872a49-dbeb-4c6a-ad3b-cf7c496848e4",
+      "name": "music",
+      "title": "MUSIC",
+      "content": "Our favorite tunes and moments together",
+      "created_at": "2024-12-29T13:32:18.984487+00:00",
+      "updated_at": "2024-12-30T03:23:51.312601+00:00",
+      "display_order": 3,
+      "profiles": null
+    },
+    {
+      "id": "26a4bcce-4d11-430e-a984-345cfc7904c3",
+      "name": "about",
+      "title": "ABOUT US",
+      "content": "We are one of the happy couples in the city of Los Santos (Nusa V)! our first meet was at the Casino parking on 21-02-24. an because her car was lost, continued on 27-02-24 confessing to having a relationship, we went through the hard times, laughing and crying together and until 24-04-24 we decided to propose until finally on 29-06-24 we finally got married.\n\nPlease pray for us to continue together until the our end yaa!",
+      "created_at": "2024-12-29T13:32:18.984487+00:00",
+      "updated_at": "2025-02-06T04:45:37.593525+00:00",
+      "display_order": 2,
+      "profiles": null
+    },
+    {
+      "id": "d7bf5935-b5a7-4214-b92a-e2a82f2afda1",
+      "name": "who-we-are",
+      "title": "WHO WE ARE?",
+      "content": "WHO WE ARE?",
+      "created_at": "2024-12-29T13:32:18.984487+00:00",
+      "updated_at": "2025-03-08T10:04:19.516679+00:00",
+      "display_order": 1,
+      "profiles": {
+        "nata": {
+          "birth": "2002-02-22",
+          "badside": "Black Dragon",
+          "profession": "Mafia"
+        },
+        "yupi": {
+          "birth": "2002-12-27",
+          "badside": "69 Hoover",
+          "profession": "Gangster"
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "id": "0c67ecc9-ae7e-455f-bbb4-02428466082a",
+      "section": "gallery",
+      "path": "/media/images/gallery/1739618158588-1.png",
+      "description": "Our First Date 1",
+      "created_at": "2025-02-15T11:16:01.933605+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "3c5522f7-d30f-4849-86f5-da652f5f7ec9",
+      "section": "parallax",
+      "path": "/media/images/1735500643480-image8.png",
+      "description": "Parallax Divider",
+      "created_at": "2024-12-29T14:03:04.103297+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "2f5d477f-c3a8-479a-bd15-5ec04ae9d28d",
+      "section": "background",
+      "path": "/media/images/1735499658447-love.jpg",
+      "description": "About Background",
+      "created_at": "2024-12-29T14:03:04.103297+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "80aae37b-59ee-440e-8e91-eabe093b5b45",
+      "section": "hero",
+      "path": "/media/images/hero-1735502080939-yupi-nata.jpg",
+      "description": "tes",
+      "created_at": "2024-12-29T19:54:43.369102+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "91c7fe06-6e3c-4c3d-a877-168aaa99791a",
+      "section": "background",
+      "path": "/media/images/1735500023004-love.jpg",
+      "description": "Music Background",
+      "created_at": "2024-12-29T14:03:04.103297+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "fe8da43a-e935-4590-b989-a711f58f2e7c",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741273505192-2.png",
+      "description": "Our First Date 2",
+      "created_at": "2025-03-06T15:05:08.718674+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "3e3fb1ce-ae84-4e10-8ec1-b03b538f694f",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741273652682-3.png",
+      "description": "Our first date 3",
+      "created_at": "2025-03-06T15:07:39.062431+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "5256e4e7-b954-434a-a68e-84f0d4e59552",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741273854316-4.png",
+      "description": "Kissing you",
+      "created_at": "2025-03-06T15:10:57.087238+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "9c4b4cba-16ad-42a8-8da4-b4ec713dd8e2",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741273997721-5.png",
+      "description": "First our home 1",
+      "created_at": "2025-03-06T15:13:22.989358+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "a8bb0742-27a4-46a6-9570-8dcb66d84702",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741274605980-6.png",
+      "description": "Our first date",
+      "created_at": "2025-03-06T15:23:28.028865+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "3966bf0f-1421-47a8-9f29-e896621a12f2",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741274745536-7.png",
+      "description": "Love you 1",
+      "created_at": "2025-03-06T15:25:53.422571+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "148c560f-0410-4741-80df-c65cee07121b",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741274818206-8.png",
+      "description": "Love you 2",
+      "created_at": "2025-03-06T15:27:00.447467+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "54149c3b-949b-4ebb-b4cc-ec9294668af0",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741274923032-9.png",
+      "description": "Love you 3",
+      "created_at": "2025-03-06T15:28:48.466937+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "84d68069-45ad-4d5b-a789-ea69e9d0036c",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741275033655-10.png",
+      "description": "Love you 4",
+      "created_at": "2025-03-06T15:30:38.036402+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "42e8ffdf-ad7f-4d9f-bd61-9001f6f10440",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741275093643-11.png",
+      "description": "Love you 5",
+      "created_at": "2025-03-06T15:31:36.444497+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "17c4061e-0f50-4a00-abdf-1be688960812",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741275155961-12.png",
+      "description": "Love you 6",
+      "created_at": "2025-03-06T15:32:38.30964+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "8b59e46d-5e59-47f4-82c1-3e8af61d18d3",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741330143490-13.png",
+      "description": "Love you 7",
+      "created_at": "2025-03-07T06:49:05.411258+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "59279e47-40b8-43c8-889e-1049a13dd2e9",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741330470707-14.png",
+      "description": "Love you 8",
+      "created_at": "2025-03-07T06:54:32.856004+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "08e5a685-080c-4356-86d2-42f173862900",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741330535225-15.png",
+      "description": "Love you 9",
+      "created_at": "2025-03-07T06:55:37.742692+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "25d853f3-4bc2-4463-aa5c-6f66c0495ff4",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741330698432-16.png",
+      "description": "Love you 10",
+      "created_at": "2025-03-07T06:58:21.44656+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "b30a8e80-a8e8-47fd-a0f1-53f6d6cfae64",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741400215166-17.png",
+      "description": "Love you 11",
+      "created_at": "2025-03-08T02:16:57.865019+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "4114a9f1-7bd6-4674-b820-10571aa4bb36",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741400668904-18.png",
+      "description": "Love you 12",
+      "created_at": "2025-03-08T02:24:31.811602+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "cc7306e2-0d22-404c-a9ae-39d4c10b6f53",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741400919010-19.png",
+      "description": "Love you 13",
+      "created_at": "2025-03-08T02:28:41.481404+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "e0f06d3f-ede9-46b4-8204-0f1ae86ea5e2",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741400935812-20.png",
+      "description": "Love you 14",
+      "created_at": "2025-03-08T02:28:58.287469+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "5f9e1ac4-3944-49f5-bb34-2313e3e810f1",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741400961238-21.png",
+      "description": "Love you 15",
+      "created_at": "2025-03-08T02:29:23.776734+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "3678622a-2097-4911-95e7-8bd7b5636d35",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741400986990-22.png",
+      "description": "Love you 16",
+      "created_at": "2025-03-08T02:29:49.394621+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "eabb2272-b1ab-436b-9b96-78e66f870abf",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401008928-23.png",
+      "description": "Love you 17",
+      "created_at": "2025-03-08T02:30:11.113724+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "3adb26ee-aa15-4984-9787-0ae827e457e1",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401051888-24.png",
+      "description": "Love you 18",
+      "created_at": "2025-03-08T02:30:54.779523+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "18fab847-63ff-4540-9e37-49c237dfc9dc",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401082732-25.png",
+      "description": "Love you 19",
+      "created_at": "2025-03-08T02:31:25.595117+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "a961f7cc-5c50-48de-b969-32174df79278",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401115922-26.png",
+      "description": "Love you 20",
+      "created_at": "2025-03-08T02:31:59.006887+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "236ded6e-eacc-40f0-ae0c-ba5f5cf7aacf",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401142716-27.png",
+      "description": "Love you 21",
+      "created_at": "2025-03-08T02:32:24.863482+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "b0c641d7-2d7b-4c26-a2f5-aa0ad08918d9",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401167877-28.png",
+      "description": "Love you 22",
+      "created_at": "2025-03-08T02:32:50.456964+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "fe887deb-84d2-44a8-bbc2-f93e5f301870",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401190414-29.png",
+      "description": "Love you 23",
+      "created_at": "2025-03-08T02:33:12.935889+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "43e528e2-4d91-4734-bf8c-60bd162cc71a",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401210819-30.png",
+      "description": "Love you 24",
+      "created_at": "2025-03-08T02:33:33.389603+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "e43f4b71-09c0-4b5a-85ea-ed5ee469cd4b",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401230735-31.png",
+      "description": "Love you 25",
+      "created_at": "2025-03-08T02:33:52.993015+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "7b945b1d-e8e2-4f29-8cbb-79ba4db80c45",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401255303-32.png",
+      "description": "Love you 26",
+      "created_at": "2025-03-08T02:34:17.220696+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "dc25a720-855e-4171-aa6a-5b293288ff9b",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401297718-33.png",
+      "description": "Love you 27",
+      "created_at": "2025-03-08T02:35:00.606474+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "ee59bb4e-f64c-4114-9366-493ce3c3bb4b",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401315040-34.png",
+      "description": "Love you 28",
+      "created_at": "2025-03-08T02:35:16.935098+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "1b40206a-50da-4f5a-a71d-25e5c1e6acaf",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401351802-35.png",
+      "description": "Love you 29",
+      "created_at": "2025-03-08T02:35:54.494605+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "ae947af0-f56b-4605-a577-82a62bd77551",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401370200-36.png",
+      "description": "Love you 30",
+      "created_at": "2025-03-08T02:36:12.73875+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "c5990b22-5b19-4b6b-bccd-81aa90b03505",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401401439-37.png",
+      "description": "Love you 31",
+      "created_at": "2025-03-08T02:36:44.140124+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "cd0b3a97-525b-47ca-80b5-786e5eb99e5b",
+      "section": "profile",
+      "path": "/media/images/1741719649772-Artboard_2_edited (1).jpg",
+      "description": "Yupi Profile",
+      "created_at": "2024-12-29T14:03:04.103297+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "c6f29863-f14b-4e72-9359-b62f39ad5fcb",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401423066-38.png",
+      "description": "Love you 32",
+      "created_at": "2025-03-08T02:37:05.468309+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "8bdcc192-dadc-4019-868a-d3f0a44c7c16",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401453340-39.png",
+      "description": "Love you 33",
+      "created_at": "2025-03-08T02:37:35.78619+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "5fde7cb3-daf5-4454-9161-667a1aa4e8b7",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401491084-40.png",
+      "description": "Love you 34",
+      "created_at": "2025-03-08T02:38:14.255211+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "17334b99-f90a-4cb3-ae29-fe2ad46cc77b",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401518924-41.png",
+      "description": "Love you 35",
+      "created_at": "2025-03-08T02:38:41.656569+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "a47016a2-0af4-4ca0-90fe-22bc5c7f0e73",
+      "section": "gallery",
+      "path": "/media/images/1741401579309-42.png",
+      "description": "Love you 36",
+      "created_at": "2025-03-08T02:39:12.399415+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "8ea849a4-78ed-40ee-9b32-ce4a98542ec1",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401613362-43.png",
+      "description": "Love you 37",
+      "created_at": "2025-03-08T02:40:15.856162+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "d32c3b9c-3a3d-4c9d-87da-7f60b47d07f5",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401640124-44.png",
+      "description": "Love you 38",
+      "created_at": "2025-03-08T02:40:43.984005+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "14c4051e-5dac-4b79-b016-b349d0512991",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401703317-45.png",
+      "description": "Love you 39",
+      "created_at": "2025-03-08T02:41:45.81545+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "4cc9b694-97ee-4e39-a989-c3a37e778cc1",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401722920-46.png",
+      "description": "Love you 40",
+      "created_at": "2025-03-08T02:42:05.131637+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "9ea20ceb-6f59-4be6-8fda-421c49156bb8",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401746541-47.png",
+      "description": "Love you 41",
+      "created_at": "2025-03-08T02:42:29.043745+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "ab16f46a-0318-4abc-8766-4a97b8434fee",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401768348-48.png",
+      "description": "Love you 42",
+      "created_at": "2025-03-08T02:42:50.96044+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "ee16c243-d731-40c1-a430-2957b0914ab6",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401810078-49.png",
+      "description": "Love you 43",
+      "created_at": "2025-03-08T02:43:33.545746+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "b8264021-feb0-4cb0-8ef5-7235c3a4acff",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401842088-50.png",
+      "description": "Love you 44",
+      "created_at": "2025-03-08T02:44:04.70356+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "423b6f54-068f-4979-9d5b-786c7adfd7b4",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401867629-51.png",
+      "description": "Love you 45",
+      "created_at": "2025-03-08T02:44:30.320738+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "8b93d318-78fc-4d84-b75d-be1d908071d4",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401892004-52.png",
+      "description": "Love you 46",
+      "created_at": "2025-03-08T02:44:54.25061+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "9563686b-a929-46be-847d-6aa075479935",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401913517-53.png",
+      "description": "Love you 47",
+      "created_at": "2025-03-08T02:45:16.367747+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "d7bd9283-afeb-403c-8c7a-1c6b6aa168aa",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401929954-54.jpg",
+      "description": "Love you 48",
+      "created_at": "2025-03-08T02:45:32.421415+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "306055ca-ed20-45ca-93f9-c35b6366af0d",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401957337-55.jpg",
+      "description": "Love you 49",
+      "created_at": "2025-03-08T02:45:59.581845+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "ae8ee8c6-02b2-483e-9bbb-1fb390cba3f8",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401976177-56.jpg",
+      "description": "Love you 50",
+      "created_at": "2025-03-08T02:46:18.495833+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "5b598a97-309b-4aa6-a68f-b83870d060fb",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741401994895-57.png",
+      "description": "Love you 51",
+      "created_at": "2025-03-08T02:46:37.365992+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "c8ffdb8e-6a6e-4f0c-9f30-e431956dc04f",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402010853-58.png",
+      "description": "Love you 52",
+      "created_at": "2025-03-08T02:46:53.688569+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "7afed638-f77c-47f5-9188-6b4b71581233",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402031838-59.png",
+      "description": "Love you 53",
+      "created_at": "2025-03-08T02:47:14.272967+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "8fbd82f3-f23a-40e7-ab57-175a308ce830",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402076661-60.png",
+      "description": "Love you 54",
+      "created_at": "2025-03-08T02:47:59.094437+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "d47fc1c4-ccd0-4c7f-848e-df74622d08ce",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402095593-61.png",
+      "description": "Love you 55",
+      "created_at": "2025-03-08T02:48:18.735676+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "02ada4a8-c5f9-424e-bbf9-93d8063bd792",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402119565-62.png",
+      "description": "Love you 56",
+      "created_at": "2025-03-08T02:48:42.191346+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "8619167f-b75f-4855-9824-77940cd8eb1b",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402141208-63.png",
+      "description": "Love you 57",
+      "created_at": "2025-03-08T02:49:04.140022+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "a50d8e85-9c5c-4650-8a6e-ea57cd0b59b2",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402193010-64.png",
+      "description": "Love you 58",
+      "created_at": "2025-03-08T02:49:55.657885+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "253d48f3-725d-4e05-8de5-0b5fe9be01b4",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402214208-65.png",
+      "description": "Love you 59",
+      "created_at": "2025-03-08T02:50:16.892039+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "8dac449a-afcd-4a41-baa7-9c46e52324e9",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402235723-66.png",
+      "description": "Love you 60",
+      "created_at": "2025-03-08T02:50:38.458944+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "c5db13d6-6344-45a9-920c-fd70e65798ee",
+      "section": "gallery",
+      "path": "/media/images/gallery/1741402253871-67.png",
+      "description": "Love you 61",
+      "created_at": "2025-03-08T02:50:55.967575+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "f3dc08fa-84cc-46b7-8b27-6eb987f8ed9e",
+      "section": "intimate",
+      "path": "/media/images/intimate/1741578075742-23.png",
+      "description": "Our intimate 1",
+      "created_at": "2025-03-10T03:41:18.177071+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "8c2f82bf-8b8c-4634-8e4e-7911cb621b6b",
+      "section": "intimate",
+      "path": "/media/images/intimate/1741578099330-5.png",
+      "description": "Our intimate 2",
+      "created_at": "2025-03-10T03:41:42.920446+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "1d7400f2-1619-42ec-8720-c3baa59aa1e3",
+      "section": "intimate",
+      "path": "/media/images/intimate/1741578146740-24.png",
+      "description": "Our intimate 3",
+      "created_at": "2025-03-10T03:42:33.338223+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "7965b890-608a-4e55-a014-787d41d51670",
+      "section": "intimate",
+      "path": "/media/images/intimate/1741578187597-47.png",
+      "description": "Our intimate 4",
+      "created_at": "2025-03-10T03:43:11.185061+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "6a88cb78-6f13-4def-855b-ce32867b2251",
+      "section": "intimate",
+      "path": "/media/images/intimate/1741578219136-10.png",
+      "description": "Our intimate 5",
+      "created_at": "2025-03-10T03:43:42.281099+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "7741946e-597a-4145-946d-3ded4f0491b8",
+      "section": "intimate",
+      "path": "/media/images/intimate/1741578246269-2.png",
+      "description": "Our intimate 1",
+      "created_at": "2025-03-10T03:44:09.103204+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "b5f6cdf5-40f4-4675-bf6b-084b5372bee2",
+      "section": "background",
+      "path": "/media/images/background/1741578653501-1e47b2-cd5df08585b64f40a575e620ed3bf997.jpg",
+      "description": "Who We Are Background",
+      "created_at": "2025-03-10T03:50:56.112551+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    },
+    {
+      "id": "13930982-9cca-4c83-9965-f8fe211bb483",
+      "section": "profile",
+      "path": "/media/images/1741719638781-Artboard_1_edited (1).jpg",
+      "description": "Nata Profile",
+      "created_at": "2024-12-29T14:03:04.103297+00:00",
+      "updated_at": "2026-06-07T18:59:18.705678+00:00",
+      "display_order": 0
+    }
+  ],
+  "songs": [
+    {
+      "id": "0b3f684b-75fc-4211-9d3f-d89312acc4af",
+      "title": "Serenade",
+      "artist": "Sweet As Revenge",
+      "album": "Our Fav Song ♡",
+      "cover_url": "/media/songs/covers/1739015468849-Yupi.jpg",
+      "audio_url": "/media/songs/audio/1739015470589-Serenade.mp3",
+      "created_at": "2025-02-08T11:51:15.643538+00:00",
+      "updated_at": "2025-02-08T11:51:15.643538+00:00",
+      "lyrics": "That thought never cross my mind\nThat you could leave\nAnd vanish into nothingness\nLeft us alone\n\nI shall never forget the moment that I heard the news of you\nNothing gonna be the same again\nI never thought that all the problems you kept in had a glimpse of truth\n\nThese words and these melodies I write for you\nInscribed in our hearts we scream for you\n\nYou never be alone again\nCos this serenade I sing for you\nWill be your guardian angel\nWatching over your endless sleep\n\nEvery now and then your smile\nAppears before me\nOnly then I realize it's all just a dream\nYour ghost still linger upon us\nAs it watches over\nMy every step\n\nThese words and these melodies I write for you\nInscribed in our hearts we scream for you\n\nYou never be alone again\nCos this serenade I sing for you\nWill be your guardian angel\nWatching over your endless sleep",
+      "display_order": 2
+    },
+    {
+      "id": "494e5aba-c7d3-4396-979e-1502ba1bf30c",
+      "title": "Pelabuhan Terakhir",
+      "artist": "Skastra",
+      "album": "Our Fav Song ♡",
+      "cover_url": "/media/songs/covers/1739780506180-Yupi.jpg",
+      "audio_url": "/media/songs/audio/1739780508318-Skastra - Pelabuhan Terakhir (Official Music Video).mp3",
+      "created_at": "2025-02-17T08:21:56.43789+00:00",
+      "updated_at": "2025-02-17T08:21:56.43789+00:00",
+      "lyrics": "Berawal dari satu kisah\nBersama lewati ribuan detik duka lara\nRintihan melodi tercipta\nLelah menanti mimpi indah\nHingga asa pun hilang, sakit kurasa\n\nBeranjak ke kisah kedua\nCanda tawa terikat pada jalan yg berbeda\nTembok tinggi tak runtuh juga\nTak temukan ujung jalannya\nSungguh nelangsa kisah ini akhirnya\n\nSampai senyum mu datang\nMengetuk pintu hati yg sempat kusam\nBersihkan noda-noda\nMenyatu melekat di ruang nestapa\n\nDan ku pun berlabuh\nMeneduh bersamamu\n\nSatu dua kisah sakit yg telah terlewati\nKecewa sirna semua mimpi hingga hilang jati diri\nNamun kau datang begitu saja\nObati luka yg telah mendalam\nKuharap kau lah pelabuhan terakhir\n\nSatu dua tanda tanya yg telah terlewati\nBerharap hadirkan jawaban setiap doa yg kunanti\nHingga kau datang begitu saja\nObati luka yg telah mendalam\nKuharap kau lah pelabuhan terakhir",
+      "display_order": 3
+    },
+    {
+      "id": "4f91791a-ed71-4424-b30b-0c1742c96b5a",
+      "title": "I Like You The Most  Feat.VARINZ",
+      "artist": "Shania Yan Cover",
+      "album": "Our Fav Song ♡",
+      "cover_url": "/media/songs/covers/1739014733185-Yupi.jpg",
+      "audio_url": "/media/songs/audio/1739014984511-Ponchet - I Like You The Most  Feat.VARINZ ( Shad English Version )  Shania Yan Cover.mp3",
+      "created_at": "2025-02-04T15:42:09.311229+00:00",
+      "updated_at": "2025-02-04T15:42:09.311229+00:00",
+      "lyrics": "At first, I didn’t seem to care ‘bout love\nBut suddenly, you came to me\nFollowing me around\nI thought I told you to stop staring now\nWhy don’t you listen to me?\nStop calling me at night\n\nBut when we say “bye”\nI kinda wish that we’d stay up all night\nNow I miss you all the time\nOh. It’s obvious to my friend\nThat when they see you smiling\nI go crazy for you\n\nCause you’re the one that I like\nI cant deny\nEvery night you’re on my mind\nSo if I call you tonight\nWill you pick up and give me you time?\nMiss you every night\nMiss you all the time\n\nNo, i don’t even know\nWhere to start\n\nCause you’re the one that I like\nI can’t deny\nEverything i feel inside\nWill you tell me i’m the one?\nThe one inside of your heart\nUsed to brush aside\nNow I can’t deny\nThat Baby you’re my special one\nCause you’re the one that I like\n\nYou mean a lot to me\nCause you have made me believe\nHow love makes anything\nBetter than they used to be\nI’m not like this before\nYou make me wish for more\nOh, when you pass me by, girl\nYou give me butterflies\n\nCause everything slows down in time\nOh-oh, I don’t know what to say\nCause girl, when you smile\nI'd fall for it again and again\n\nCause you’re the one that I like\nI cant deny\nEvery night you’re on my mind\nSo if I call you tonight\nWill you pick up and give me you time?\nMiss you every night\nMiss you all the time\n\nNo, i don’t even know\nWhere to start\n\nCause you’re the one that I like\nI can’t deny\nEverything i feel inside\nWill you tell me i’m the one?\nThe one inside of your heart\nUsed to brush aside\nNow I can’t deny\nThat Baby you’re my special one\nCause you’re the one that I like",
+      "display_order": 0
+    },
+    {
+      "id": "b509b21f-c99e-4e78-9384-5619e02afe7f",
+      "title": "Penjaga Hati",
+      "artist": "Nadhif Basalamah",
+      "album": "Our Fav Song ♡",
+      "cover_url": "/media/songs/covers/1739780343215-Yupi.jpg",
+      "audio_url": "/media/songs/audio/1739780345400-nadhif basalamah - penjaga hati (Official Music Video).mp3",
+      "created_at": "2025-02-17T08:19:14.26785+00:00",
+      "updated_at": "2025-02-17T08:19:14.26785+00:00",
+      "lyrics": "Tak sadar ku temukan\nTemukan wanita rupawan yang sadarkan\nDia seorang tiada lain tiada bukan\nHanya dia\n\nDia buatku nyaman\nDalam hangat pelukan\nDia perasa yang mengerti yang kurasa\nHanya dia\n\nKan ku arungi tujuh laut samudra\nKan ku daki pegunungan himalaya\nApapun kan ku lakukan tuk dirimu sayang\nOh penjaga hati\n\nKau dan aku sempurna\nSemoga ada cara tuk terus bersama\nSelalu ku tunggu\nTak mau berlalu\nKau dan aku\n\nKan ku arungi tujuh laut samudra\nKan ku daki pegunungan himalaya\nApapun kan ku lakukan tuk dirimu sayang\nOh penjaga hatiku\n\nOh oh\n\nKan ku arungi tujuh laut samudra\nKan ku daki pegunungan himalaya\nApapun kan ku lakukan tuk dirimu sayang\nOh penjaga hatiku oh\n\nKarna bersamamu semua terasa indah\nGundah gulana hatiku pun hancur sirna\nJanji ku tak kan ku lepas wahai kau bidadariku dari surga\nTuk selamanya\nTuk selamanya\nTuk selamanya",
+      "display_order": 1
+    }
+  ]
+}

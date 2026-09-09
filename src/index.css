@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pink-accent: #FF8FA3;
+  --color-pink-soft: #FFE4E8;
+  --color-pink-deep: #E8607A;
+  --color-sky: #87CEEB;
+  --color-sky-light: #B0E2FF;
+  --color-sky-dark: #5BA3C9;
+  --color-dark: #0A0A0A;
+  --color-dark-card: #121212;
+  --color-dark-surface: #1A1A1A;
+
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-dark);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Ken Burns keyframes */
+@keyframes kenburns-1 {
+  0% { transform: scale(1) translate(0, 0); }
+  50% { transform: scale(1.15) translate(-2%, -1%); }
+  100% { transform: scale(1) translate(0, 0); }
+}
+
+@keyframes kenburns-2 {
+  0% { transform: scale(1.1) translate(1%, 1%); }
+  50% { transform: scale(1) translate(-1%, 0%); }
+  100% { transform: scale(1.1) translate(1%, 1%); }
+}
+
+@keyframes kenburns-3 {
+  0% { transform: scale(1.05) translate(-1%, 2%); }
+  50% { transform: scale(1.2) translate(1%, -1%); }
+  100% { transform: scale(1.05) translate(-1%, 2%); }
+}
+
+.kenburns-1 { animation: kenburns-1 20s ease-in-out infinite; }
+.kenburns-2 { animation: kenburns-2 25s ease-in-out infinite; }
+.kenburns-3 { animation: kenburns-3 22s ease-in-out infinite; }
+
+/* Aurora gradient animation */
+@keyframes aurora {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 50% 0%; }
+  50% { background-position: 100% 50%; }
+  75% { background-position: 50% 100%; }
+  100% { background-position: 0% 50%; }
+}
+
+.aurora-bg {
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 143, 163, 0.15),
+    rgba(135, 206, 235, 0.1),
+    rgba(232, 96, 122, 0.12),
+    rgba(176, 226, 255, 0.08),
+    rgba(255, 143, 163, 0.15)
+  );
+  background-size: 400% 400%;
+  animation: aurora 15s ease infinite;
+}
+
+/* Floating particle */
+@keyframes float-up {
+  0%, 100% { transform: translateY(0) rotate(0deg); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 0.6; }
+  100% { transform: translateY(-100vh) rotate(720deg); opacity: 0; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-pink-accent);
+  border-radius: 3px;
+}
