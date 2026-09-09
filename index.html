@@ -26,9 +26,6 @@
       <p id="splash-text" style="font-family:'Playfair Display',serif;color:rgba(255,255,255,.3);font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;margin-top:1.2rem">Loading...</p>
     </div>
 
-    <!-- Admin has no loader: drop the splash before React mounts. -->
-    <script>if (location.pathname.indexOf('/admin') === 0) { var s = document.getElementById('splash'); if (s) s.remove(); }</script>
-
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

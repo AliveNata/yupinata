@@ -5,6 +5,12 @@ import { MusicProvider } from './lib/MusicContext'
 import './index.css'
 import App from './App.tsx'
 
+// Admin has no loader: drop the splash before React renders (CSP-safe, runs in-bundle).
+if (location.pathname.startsWith('/admin')) {
+  const splash = document.getElementById('splash')
+  if (splash) splash.remove()
+}
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
