@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+# Yupinata
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal website with its own content management system. Visitors see an animated one page site with a gallery and a music player. The admin edits every section, image, song, and setting from a private dashboard, without touching code.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Public site**
+- Animated sections with page transitions, parallax dividers, and a preloader
+- Photo gallery and dedicated profile pages
+- Music player with lyrics
 
-## React Compiler
+**Admin CMS** (`/admin`)
+- Login with JWT, password change, and forgot password flow
+- Edit text content for each section
+- Upload, replace, and reorder images
+- Manage songs
+- Site settings such as title, favicon, and section order
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+| Layer | Tools |
+|---|---|
+| Frontend | React 19, TypeScript, Vite, Tailwind CSS 4, Framer Motion, React Router |
+| Backend | Node.js, Express, JWT, bcrypt, Multer |
+| Database | PostgreSQL (migrated from Supabase) |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Getting started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Requirements: Node.js 20 or newer and PostgreSQL.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+```bash
+# API
+cd server
+npm install
+cp .env.example .env    # set DATABASE_URL, JWT_SECRET, admin login
+npm run migrate         # create tables
+npm run seed            # optional sample content
+npm start               # http://localhost:4100
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# frontend (new terminal, from the repo root)
+npm install
+npm run dev             # http://localhost:5173
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+  components/         # public site sections
+  components/admin/   # CMS screens and UI kit
+  pages/              # gallery and profile pages
+  AdminApp.tsx
+server/
+  index.js            # Express API
+  auth.js, crud.js, upload.js, settings.js
+  schema.sql, migrate.js, seed.js
+  uploads/            # uploaded media
+```
+
+In production, nginx can serve the `/uploads` folder directly.
