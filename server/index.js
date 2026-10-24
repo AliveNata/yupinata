@@ -29,4 +29,4 @@ app.use((err, _req, res, _next) => {
 })
 
 const port = process.env.PORT || 4100
-app.listen(port, () => console.log(`yupinata API on :${port}`))
+app.listen(port, '127.0.0.1', () => console.log(`yupinata API on :${port}`))
